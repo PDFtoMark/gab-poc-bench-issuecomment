@@ -2,7 +2,7 @@ name: Bot Comment
 on:
   workflow_dispatch:
 permissions:
-  issues: write
+  pull-requests: write
 jobs:
   comment:
     runs-on: ubuntu-latest
